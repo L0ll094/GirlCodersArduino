@@ -34,7 +34,7 @@ float antal_LEDS_att_hoppa = 255/antal_LEDs;
 //Först skapar vi en palett som en gradient, alltså där färgen skiftar fint från ena till andra änden
 DEFINE_GRADIENT_PALETTE(palette_1) {
   0, 255,   0,   0,   //På plats 0 har vi färgen (255,0,0) som är röd
-  255, 255, 0,  0,   //På plats 255 har vi färgen (255,0,0) igen
+  255, 255, 0,  0   //På plats 255 har vi färgen (255,0,0) igen
 };
 
 //Här skapar vi en 16-färgspalette där du väljer vad varje sextondel ska ha för färg.
